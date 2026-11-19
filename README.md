@@ -1,2 +1,20 @@
-# planilhalab
-App web leve e offline (PWA) para estudar Excel do básico ao avançado: aulas avulsas do YouTube, mini planilha interativa com fórmulas reais em PT-BR/EN, gerador de dados fictícios (CSV/XLSX), guia rápido offline, timer de foco, anotações e lembretes salvos localmente.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/b8dc0ecd-f4a2-483c-a6ce-20232d38706c
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
